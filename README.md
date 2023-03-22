@@ -55,6 +55,7 @@ cd ../
 │           └── end_to_end_latency.csv         ## End-to-end latency reports
 │           └── flow_queue_log.csv             ## Per queue reports
 │           └── timing.csv                     ## Time taken for simulation
+│           └── sim_output.log                 ## Simulation realtime progress
 ├── run_sim_analytical_compare.py              ## MASTER script that runs simulation, analytical models, performs comparison and generates plots
 ├── scratch                                    ## Directory that contains the user programs (TCP/UDP, etc.)
 ├── src                                        ## Source code directory of ns-3 libraries
@@ -66,19 +67,32 @@ cd ../
 ├── waf-tools                                  ## Build scripts
 ```
 
-## Running ns-3
+## Running ns-3 and MQL
 
 The DCN structure, topology and other inputs/parameters are specified in `config_file.json`.
 After modifying/confirming the parameters in the configuration file, ns-3 can be run by:
 
 ```shell
-python3 run_sim_analytical_compare.py -c <configuration_file.json> [ Default is: './config_file.json' ]
+python3 run_sim_analytical_compare.py -c <configuration_file.json>
 
 Examples:
-python3 run_sim_analytical_compare.py -c ./config_file.json
-python3 run_sim_analytical_compare.py -c ./config_file_window100ms_alltoalltraffic.json
+python3 run_sim_analytical_compare.py -c configFiles/config_L3_TCP_size16_alltoall_disPoisson_pktUniform500_lnk100Mbps_dr1p67.json
 ```
 
-This script automatically reads the `config_file.json`, runs simulation, analytical models, compares the two and generates plots using the above directory structure.
+This script automatically reads the `configuration_file.json`, runs simulation, analytical models, compares the two and generates results using the above directory structure.
 
 
+## Authors
+
+* Jie Tong
+* Shruti Yadav Narayana
+* Anish Nallamur Krishnakumar
+* Emily Shriver
+
+## Citing
+
+Please cite our paper if you're using any part of this code for your project.
+
+```
+
+```
