@@ -194,7 +194,7 @@ FlowMonitor::ReportFirstTx (Ptr<FlowProbe> probe, uint32_t flowId, uint32_t pack
   // m_mimiclogv2.m_TimeWarmUp = this->m_TimeWarmUp;
   // m_flowlogv2.m_TimeWindow = this->m_TimeWindow;
   // m_mimiclogv2.m_TimeWindow = this->m_TimeWindow;
-  std::cout << "pkt:" << packetSize << std::endl; 
+  
   if (now >= m_TimeWarmUp)
   {
     if (enable_first_pod)
