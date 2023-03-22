@@ -1,0 +1,24 @@
+{                                                                              
+    "DCNStructure": {                                                          
+        "numPods"          : 12,                                
+        "ecmpRouting"      : "true"                                            
+    },                                                                         
+                                                                               
+                                                                               
+    "SimulationParamsInputs": {                                                
+        "randomSeed"       : [1,2,3],                          
+        "simTime_inms"     : 40000,              
+        "warmup_inms"      : 10000,                         
+        "windowTime_inms"  : 30000,                         
+        "queueSize"        : 128,                                              
+        "enableLog"        : "true",                                           
+        "enable_first_pod" : "true",                  
+        "dataRate_OnOff"   : "0.17",                                
+        "p_burst"          : "0",                           
+        "minPacketSize"    : "495",                   
+        "maxPacketSize"    : "505",                   
+        "programFile"      : "scratch/dcn_fattree_finite_large_v3",            
+        "trafficFile"      : "432x432alltoall",                              
+        "tagComments"      : "size432_alltoall_disPoisson_packetUniform_dr0p17"                               
+    }                                                                          
+}                                                                              

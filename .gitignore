@@ -1,0 +1,12 @@
+__pycache__/
+.waf*/
+build/
+statistics*/
+analytical_model
+*.o
+*.csv
+.lock*
+runs/
+*.*.swp
+*.*.swo
+*.orig

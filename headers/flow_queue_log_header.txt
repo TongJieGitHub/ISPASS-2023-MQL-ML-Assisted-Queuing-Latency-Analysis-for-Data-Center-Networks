@@ -1,0 +1,1 @@
+timestamp,randSeed,flowId,client,server,stage,nodeId,queueId,meanDatarateArrival,meanDatarateDeparture,rho,CA_sqr,CD_sqr,CS_sqr,meanPacketSize,txPackets,txBytes,rxPackets,rxBytes,latency_sim,link_delay_sim,queueing_delay_sim,queuePackets,queueBytes

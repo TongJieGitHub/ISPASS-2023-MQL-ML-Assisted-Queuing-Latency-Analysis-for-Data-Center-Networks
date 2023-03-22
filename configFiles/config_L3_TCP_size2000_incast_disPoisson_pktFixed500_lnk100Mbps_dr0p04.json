@@ -1,0 +1,28 @@
+{                                                                              
+    "DCNStructure": {                                                          
+            "numPods"          : 20,                            
+            "topology"         : "L3",                      
+            "ecmpRouting"      : "true"                                        
+    },                                                                         
+                                                                               
+                                                                               
+    "SimulationParamsInputs": {                                                
+        "randomSeed"         : [1,2,3],                        
+        "simTime_inms"       : 11000,         
+        "warmup_inms"        : 1000,                       
+        "windowTime_inms"    : 10000,                       
+        "queueSize"          : 128,                                            
+        "enableLog"          : "true",                                         
+        "enable_first_pod"   : "true",                
+        "linkBandwidth"      : "100",                   
+        "unitsDataRate"      : "Mbps",                   
+        "dataRate_OnOff"     : "0.04",                              
+        "p_burst"            : "0",                         
+        "minPacketSize"      : "500",                 
+        "maxPacketSize"      : "500",                 
+        "programFile"        : "scratch/dcn_fattree_finite_large_v3",                     
+        "trafficFile"        : "1999x1",                     
+        "netProtocol"        : "TCP",                     
+        "tagComments"        : "L3_TCP_size2000_incast_disPoisson_pktFixed500_lnk100Mbps_dr0p04"                              
+    }                                                                          
+}                                                                              

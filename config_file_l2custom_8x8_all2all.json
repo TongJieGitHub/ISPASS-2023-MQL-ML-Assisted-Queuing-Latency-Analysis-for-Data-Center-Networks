@@ -1,0 +1,24 @@
+{
+    "DCNStructure": {
+		"numPods"          : 4,
+		"switchRadix"      : 8,
+		"numNodes"         : 16,
+        "topology"         : "L2Custom",
+		"ecmpRouting"      : "true"
+    },
+   
+    "SimulationParamsInputs": {
+		"sourceDataRate_inMbps"  : 4,
+        "simTime_inms1"     : 11,
+        "windowTime_inms1"  : 1,
+        "randomSeed"       : 10,
+        "simTime_inms"     : 10001,
+        "windowTime_inms"  : 1000,
+        "queueSize"        : 128,
+        "enableLog"        : "true",
+        "programFile"      : "scratch/dcn_fattree_finite_large_l2custom_200G_v3",
+        "trafficFile"      : "8x8alltoall",
+        "tagComments"      : "L2c_8x8a2a_p500_r4"
+    }
+}
+

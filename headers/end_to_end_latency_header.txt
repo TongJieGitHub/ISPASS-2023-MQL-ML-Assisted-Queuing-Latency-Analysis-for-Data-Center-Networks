@@ -1,0 +1,1 @@
+timestamp,randSeed,flowId,client,server,clientIP,serverIP,observedDatarate,CA_sqr,CS_sqr,meanPacketSize,txPackets,txBytes,rxPackets,rxBytes,cwnd,rtt,latency_sim

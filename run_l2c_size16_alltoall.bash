@@ -1,0 +1,18 @@
+#!/bin/bash
+
+python3 run_sim_analytical_compare_L2c_v3.py -c ./configFiles/test/config_L2c_TCP_size16_alltoall_disPoisson_pktUniform500_lnk100Mbps_dr7p14.json	
+python3 run_sim_analytical_compare_L2c_v3.py -c ./configFiles/test/config_L2c_TCP_size16_alltoall_disPoisson_pktUniform500_lnk100Mbps_dr3p57.json	
+python3 run_sim_analytical_compare_L2c_v3.py -c ./configFiles/test/config_L2c_TCP_size16_alltoall_disPoisson_pktUniform500_lnk100Mbps_dr10p71.json
+
+python3 run_sim_analytical_compare_L2c_v3.py -c ./configFiles/test/config_L2c_TCP_size16_alltoall_disPoisson_pktFixed500_lnk100Mbps_dr7p14.json	
+python3 run_sim_analytical_compare_L2c_v3.py -c ./configFiles/test/config_L2c_TCP_size16_alltoall_disPoisson_pktFixed500_lnk100Mbps_dr3p57.json	
+python3 run_sim_analytical_compare_L2c_v3.py -c ./configFiles/test/config_L2c_TCP_size16_alltoall_disPoisson_pktFixed500_lnk100Mbps_dr10p71.json	
+
+python3 run_sim_analytical_compare_L2c_v3.py -c ./configFiles/test/config_L2c_TCP_size16_alltoall_disGE_pktUniform500_lnk100Mbps_dr7p14.json		
+python3 run_sim_analytical_compare_L2c_v3.py -c ./configFiles/test/config_L2c_TCP_size16_alltoall_disGE_pktUniform500_lnk100Mbps_dr3p57.json		
+python3 run_sim_analytical_compare_L2c_v3.py -c ./configFiles/test/config_L2c_TCP_size16_alltoall_disGE_pktUniform500_lnk100Mbps_dr10p71.json		
+
+python3 run_sim_analytical_compare_L2c_v3.py -c ./configFiles/test/config_L2c_TCP_size16_alltoall_disGE_pktFixed500_lnk100Mbps_dr7p14.json		
+python3 run_sim_analytical_compare_L2c_v3.py -c ./configFiles/test/config_L2c_TCP_size16_alltoall_disGE_pktFixed500_lnk100Mbps_dr3p57.json		
+python3 run_sim_analytical_compare_L2c_v3.py -c ./configFiles/test/config_L2c_TCP_size16_alltoall_disGE_pktFixed500_lnk100Mbps_dr10p71.json       
+
